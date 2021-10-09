@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Implicito">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Intent Implicito"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_marginBottom="50sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnGoolgle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="google" />
+
+    <Button
+        android:id="@+id/btnYoutube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="youtube" />
+
+    <Button
+        android:id="@+id/btnMaps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="maps" />
+
+</LinearLayout>
